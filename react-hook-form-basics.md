@@ -1,6 +1,7 @@
 ---
 date: 07-02-2022
 title: Grasping the basics of react-hook-form
+tags: ['react', 'forms', 'library']
 ---
 ## Background
 I've worked fleetingly with react-hook-form before for adding a form to an existing project. But the setting wasn't the best for durable learning; I copied and pasted my way to a working form before the looming deadline.
