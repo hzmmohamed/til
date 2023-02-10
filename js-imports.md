@@ -1,5 +1,5 @@
 ---
-date: 07-02-2022
+date: 08-02-2022
 title: Modules in JavaScript
 tags: ['js', 'es6']
 ---
