@@ -16,6 +16,8 @@ The UI can be as simple as a single input to a complex multi-page wizard with ne
 ## Controlled and Uncontrolled
 Uncontrolled inputs have their state handled by the browser outside of react, and the library will use a ref to read the input's value for validation or on submit. Controlled inputs, on the other hand, read their value from state in Javascript. My understanding, today, is that controlled inputs are needed only when the state is needed by some other logic beyond the form (e.g. a live-updating preview for the form values). But I now recall that the `watch` method or hook from react-hook-form gives access to all the form state changes,even in uncontrolled components. Given this, perhaps the main use case for `Controller` or `useContainer` would be when one has to use an input from a component library that doesn't support passing refs and callbacks, the ones coming frmo `register`.
 
+Update: Uncontrolled inputs are more performant than JS-controlled inputs. Unless you can't, use uncontrolled inputs and access the state with react-hook-form's watch method.
+
 ## Optimized
 Granular re-renders are the default behaviour of the library. That is for controlled inputs and for `useWatch` and `watch`
 
