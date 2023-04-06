@@ -1,0 +1,13 @@
+
+## auto_explain
+https://www.postgresql.org/docs/current/auto-explain.html
+
+## pgbadger
+https://pgbadger.darold.net/examples/sample.html#top
+
+
+## EXPLAIN QUERY 
+https://explain.dalibo.com/
+
+## PG logs and cumulative statistics system
+https://github.com/darold/pgbadger#REQUIREMENT

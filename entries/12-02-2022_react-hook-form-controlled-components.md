@@ -1,5 +1,5 @@
 ---
-date: 07-02-2022
+date: 12-02-2022
 title: Use Cases for react-hook-form Controlled Components
 tags: ['react', 'forms', 'library']
 ---

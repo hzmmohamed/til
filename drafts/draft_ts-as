@@ -1,0 +1,5 @@
+'as' is not made for silencing the compiler. It is made used for type narrowing.
+So it is actually safe to use. When you narrow to an in compatible type, the compiler tells it is not correct and suggests you cast first to unknown if you really want that cast.
+
+
+Maybe it's not safe. If I can cast a wider type to a more specific type, like with a union type, how do I guarantee the safety?

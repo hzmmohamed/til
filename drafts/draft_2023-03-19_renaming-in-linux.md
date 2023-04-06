@@ -1,0 +1,1 @@
+https://www.makeuseof.com/batch-rename-files-in-linux/
